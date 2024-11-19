@@ -1,0 +1,56 @@
+ 
+.imagen{
+  margin: 0px ;
+  width: 200px;
+  padding: 0px;
+  height: 0px;
+ 
+}
+.wrapWorker {
+  width: 350px;
+  position: absolute;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 20px;
+  top: 15px;
+  left: 210px;
+  text-align: center;
+  /*transform: translate(-50%, -50%);*/
+}
+.wrapBoss {
+  width: 350px;
+  position: absolute;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 20px;
+  top: 150px;
+  left: 410px;
+  text-align: center;
+  /*transform: translate(-50%, -50%);*/
+}
+ #excuseWorker {
+    text-align: center;
+  }
+
+  #ReplyBoss1 {
+    text-align: center;
+  }
+  #ReplyBoss2 {
+    text-align: center;
+  }
+
+  button{
+    width: 200px;
+    height: 50px;
+    border: 5px solid  black;
+    background-color: chartreuse;
+    border-radius: 25px;
+    position: absolute;
+    top: 500px;
+    left: 485px;  
+    cursor: pointer;
+  }
+
+button:active {
+    background-color: #af4c4c; /* Cambia el color a verde cuando el botón es presionado */
+}
